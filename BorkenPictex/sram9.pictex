@@ -1,0 +1,184 @@
+\font\thinlinefont=cmr5
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+\mbox{\beginpicture
+\setcoordinatesystem units <1.00000cm,1.00000cm>
+\unitlength=1.00000cm
+\linethickness=1pt
+\setplotsymbol ({\makebox(0,0)[l]{\tencirc\symbol{'160}}})
+\setshadesymbol ({\thinlinefont .})
+\setlinear
+%
+% Fig CIRCULAR ARC object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\circulararc 84.061 degrees from  7.070 22.828 center at  6.975 24.765
+%
+% Fig CIRCULAR ARC object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\circulararc 87.328 degrees from  3.747 24.649 center at  5.626 24.720
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\ellipticalarc axes ratio  0.085:0.085  360 degrees 
+	from  5.800 22.858 center at  5.715 22.858
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\ellipticalarc axes ratio  0.085:0.085  360 degrees 
+	from  7.059 22.860 center at  6.974 22.860
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\ellipticalarc axes ratio  0.085:0.085  360 degrees 
+	from  3.884 24.733 center at  3.799 24.733
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\ellipticalarc axes ratio  0.085:0.085  360 degrees 
+	from  4.826 23.781 center at  4.741 23.781
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\ellipticalarc axes ratio  0.085:0.085  360 degrees 
+	from  8.033 23.815 center at  7.948 23.815
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\ellipticalarc axes ratio  0.085:0.085  360 degrees 
+	from  8.985 24.754 center at  8.901 24.754
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\put{\makebox(0,0)[l]{\circle*{ 0.161}}} at  6.339 26.041
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\putrule from  4.868 23.812 to  7.821 23.812
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\plot  3.926 24.765  8.805 24.776 /
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\plot  3.873 24.786  6.244 26.024 /
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\plot  4.805 23.887  6.287 26.003 /
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\plot  3.895 24.680  4.667 23.855 /
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\plot  4.815 23.717  5.662 22.945 /
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\plot  7.048 22.934  7.874 23.749 /
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\plot  8.012 23.876  8.827 24.691 /
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\plot  6.424 26.046  8.827 24.818 /
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\plot  6.382 26.014  7.885 23.918 /
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\plot  6.350 25.940  6.964 22.987 /
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\plot  6.297 25.961  5.747 22.976 /
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\putrule from  5.821 22.818 to  6.858 22.818
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}$b$} [lB] at  4.413 23.590
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}$c$} [lB] at  5.599 22.458
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}$f$} [lB] at  6.890 22.479
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}$e$} [lB] at  8.096 23.643
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}$d$} [lB] at  9.081 24.701
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}$a$} [lB] at  3.450 24.691
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}$g$} [lB] at  6.223 26.236
+\linethickness=0pt
+\putrectangle corners at  3.450 26.465 and  9.081 22.382
+\endpicture}

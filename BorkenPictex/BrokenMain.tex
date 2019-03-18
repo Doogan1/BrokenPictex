@@ -1,0 +1,257 @@
+\documentclass[oneside, 11pt]{book}
+\setlength{\textheight}{8.5in}
+\setlength{\textwidth}{5.8in}
+%\setlength{\textheight}{9in}
+%\setlength{\textwidth}{6.6in}
+\setlength{\topmargin}{-.1in}
+\setlength{\evensidemargin}{.5in}
+\setlength{\oddsidemargin}{.5in}
+ \def\doublespacing{\parskip .5 pt plus 1 pt \baselineskip 17 pt
+     \lineskip 13 pt \normallineskip 13 pt}
+
+%%%%% %%%%%%%%%%%%%%%%%%%%%%%%% 
+
+\usepackage{epsfig}
+\usepackage{amssymb,dsfont}
+\usepackage{graphicx,graphics}
+\usepackage{pictex}
+\usepackage{amsmath,amssymb}
+\usepackage{textcomp}
+\usepackage{verbatim} 
+
+%\usepackage{fancyhdr} 
+%\fancyhf{}
+%\renewcommand{\headrulewidth}{0pt}
+%\cfoot{\thepage}
+%\pagestyle{fancy}
+
+ 
+
+
+\usepackage{tocloft,fancyhdr}
+\newif\iftoccont
+\renewcommand*\contentsname{Table of Contents}
+\renewcommand{\cftaftertoctitle}{\hfill}
+\renewcommand*\cfttoctitlefont{\hspace*{\fill}\normalsize\normalfont\Large\bfseries\MakeUppercase}
+\renewcommand\cftsecfont{\normalfont}
+\renewcommand\cftsecpagefont{\normalfont}
+\renewcommand\cftsecaftersnum{.}
+\renewcommand\cftsecleader{\cftdotfill{\cftdotsep}}
+\cftsetindents{subsection}{1.1em}{2.3em}
+\cftsetindents{subsubsection}{3em}{2.3em}
+\renewcommand\cftdotsep{.5}
+\fancyhf{}
+% \fancyhf[ch]{{Table of Contents --- continued}}
+% \fancyhf[cf]{\thepage}
+% \renewcommand\headrulewidth{0pt}
+
+\fancypagestyle{listcontent}{%
+  \fancyhf{}% Clear header and footer
+\fancyhf[ch]{{Table of Contents --- Continued}}
+\fancyhf[cf]{\thepage}
+\renewcommand\headrulewidth{0pt}
+}
+
+
+\fancypagestyle{listfigure}{%
+  \fancyhf{}% Clear header and footer
+\fancyhf[ch]{{List of Figures --- Continued}}
+\fancyhf[cf]{\thepage}
+\renewcommand\headrulewidth{0pt}
+}
+
+\fancypagestyle{ack}{%
+  \fancyhf{}% Clear header and footer
+\fancyhf[cf]{\thepage}
+\renewcommand\headrulewidth{0pt}
+}
+
+\renewcommand*{\listfigurename}{List of Figures}
+\renewcommand*\cftloftitlefont{\hspace*{\fill}\normalsize\normalfont\Large\bfseries\MakeUppercase}
+\renewcommand{\cftafterloftitle}{\hfill}
+
+
+
+\newtheorem{thm}{Theorem}[section]
+\newtheorem{prop}[thm]{Proposition}
+\newtheorem{cor}[thm]{Corollary}
+\newtheorem{lem}[thm]{Lemma}
+\newtheorem{conj}[thm]{Conjecture}
+\newtheorem{que}[thm]{Question}
+\newtheorem{exa}[thm]{Example}
+\newtheorem{defn}[thm]{Definition}
+\newcommand{\ben}{\begin{enumerate}}
+\newcommand{\een}{\end{enumerate}}
+\newcommand{\ble}{\begin{lem}}
+\newcommand{\ele}{\end{lem}}
+\newcommand{\bthm}{\begin{thm}}
+\newcommand{\ethm}{\end{thm}}
+\newcommand{\bpr}{\begin{prop}}
+\newcommand{\epr}{\end{prop}}
+\newcommand{\bco}{\begin{cor}}
+\newcommand{\eco}{\end{cor}}
+\newcommand{\bcon}{\begin{conj}}
+\newcommand{\econ}{\end{conj}}
+\newcommand{\bque}{\begin{que}}
+\newcommand{\eque}{\end{que}}
+\newcommand{\bde}{\begin{defn}}
+\newcommand{\ede}{\end{defn}}
+\newcommand{\bex}{\begin{exa}}
+\newcommand{\eex}{\end{exa}}
+\newcommand{\barr}{\begin{array}}
+\newcommand{\earr}{\end{array}}
+\newcommand{\btab}{\begin{tabular}}
+\newcommand{\etab}{\end{tabular}}
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+\newcommand{\bea}{\begin{eqnarray*}}
+\newcommand{\eea}{\end{eqnarray*}}
+
+
+\newcommand{\beal}{\begin{eqnarray}}
+\newcommand{\eeal}{\end{eqnarray}}
+
+
+\newcommand{\bce}{\begin{center}}
+\newcommand{\ece}{\end{center}}
+
+\newtheorem{obs}[thm]{Observation}
+\newcommand{\bobs}{\begin{obs}}
+\newcommand{\eobs}{\end{obs}}
+\newtheorem{prob}[thm]{Problem}
+\newcommand{\bprob}{\begin{prob}}
+\newcommand{\eprob}{\end{prob}}
+\newcommand{\pf}{{\bf Proof.}}
+
+\newcommand{\qed}{\rule{1ex}{1ex}}
+
+%\newcommand{\Qed}{\rule{1ex}{1ex}\medskip}
+\newcommand{\mc}[2]{\multicolumn{#1}{#2}}
+\newcommand{\ul}{\underline}
+\newcommand{\ol}{\overline}
+\newcommand{\hs}[1]{\hspace{#1}}
+\newcommand{\vs}[1]{\vspace{#1}}
+
+\newcommand{\emp}{\emptyset}
+\newcommand{\sbs}{\subset}
+\newcommand{\sbe}{\subseteq}
+\newcommand{\sps}{\supset}
+\newcommand{\spe}{\supseteq}
+
+\newcommand{\flf}[2]{\left\lfloor\frac{#1}{#2}\right\rfloor}
+\newcommand{\cef}[2]{\left\lceil\frac{#1}{#2}\right\rceil}
+
+\newcommand{\al}{\alpha}
+\newcommand{\be}{\beta}
+\newcommand{\ga}{\gamma}
+\newcommand{\de}{\delta}
+\newcommand{\ep}{\epsilon}
+\newcommand{\io}{\iota}
+\newcommand{\la}{\lambda}
+\newcommand{\mut}{\tilde{\mu}}
+\newcommand{\om}{\omega}
+\newcommand{\si}{\sigma}
+%\newcommand{\th}{\theta}
+\newcommand{\ze}{\zeta}
+\newcommand{\Al}{\Alpha}
+\newcommand{\Ga}{\Gamma}
+\newcommand{\De}{\Delta}
+\newcommand{\Ep}{\epsilon}
+\newcommand{\La}{\Lambda}
+\newcommand{\Om}{\Omega}
+\newcommand{\Si}{\Sigma}
+\newcommand{\Th}{\Theta}
+\newcommand{\Ze}{\Zeta}
+
+\newcommand{\cA}{{\cal A}}
+\newcommand{\cB}{{\cal B}}
+\newcommand{\cC}{{\cal C}}
+\newcommand{\cD}{{\cal D}}
+\newcommand{\cE}{{\cal E}}
+\newcommand{\cF}{{\cal F}}
+\newcommand{\cG}{{\cal G}}
+\newcommand{\cH}{{\cal H}}
+\newcommand{\cI}{{\cal I}}
+\newcommand{\cL}{{\cal L}}
+\newcommand{\cO}{{\cal O}}
+\newcommand{\cP}{{\cal P}}
+\newcommand{\cS}{{\cal S}}
+\newcommand{\cT}{{\cal T}}
+\newcommand{\cQ}{{\cal Q}}
+\newcommand{\cX}{{\cal X}}
+
+
+\newcommand{\tal}{\tilde{\alpha}}
+\newcommand{\tbe}{\tilde{\beta}}
+\newcommand{\tpi}{\tilde{\pi}}
+\newcommand{\tPi}{\tilde{\Pi}}
+\newcommand{\tH}{\tilde{H}}
+\newcommand{\Bb}{\bar{B}}
+\newcommand{\cCb}{\bar{C}}
+\newcommand{\Db}{\bar{D}}
+\newcommand{\Wb}{\bar{W}}
+
+\newcommand{\bbN}{{\mathbb N}}
+\newcommand{\bbR}{{\mathbb R}}
+\newcommand{\bbZ}{{\mathbb Z}}
+
+\newcommand{\diam}{\mathop{\rm diam}}
+\newcommand{\rad}{\mathop{\rm rad}}
+\newcommand{\od}{\mathop{\rm od}}
+\newcommand{\id}{\mathop{\rm id}}
+\newcommand{\cir}{\mathop{\rm cir}}
+\newcommand{\corona}{\mathop{\rm cor}}
+\newcommand{\NC}{\mathop{\rm NC}}
+\newcommand{\modc}{\mathop{\rm mc}}
+\newcommand{\mci}{\mathop{\rm mci}}
+
+\newcommand{\code}{\mathop{\rm code}}
+\newcommand{\val}{\mathop{\rm val}}
+\newcommand{\td}{\mathop{\rm td}}
+\newcommand{\meg}{\mathop{\rm meg}}
+\newcommand{\nzg}{\mathop{\rm nzg}}
+\newcommand{\sdn}{\mathop{\rm sdn}}
+\newcommand{\pc}{\mathop{\rm pc}}
+\newcommand{\hpc}{\mathop{\rm hpc}}
+\newcommand{\hrc}{\mathop{\rm hrc}}
+ \newcommand{\pd}{\mathop{\rm pd}}
+\newcommand{\spc}{\mathop{\rm spc}}
+\newcommand{\src}{\mathop{\rm src}}
+\newcommand{\rc}{\mathop{\rm rc}}
+\newcommand{\com}{\mathop{\rm com}}
+\newcommand{\cyc}{\mathop{\rm cyc}}
+\newcommand{\stc}{\mathop{\rm sc}}
+
+\newcommand{\hpe}{\mathop{\rm hpe}}
+\newcommand{\hce}{\mathop{\rm hce}}
+\newcommand{\he}{\mathop{\rm he}}
+
+
+
+\newcommand{\scz}{\scriptsize}
+
+% \renewcommand{\contentsname}{Table of Contents}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+
+
+
+%\thispagestyle{empty}
+
+%%%\begin{comment} %%%%%%%%%%%%%%%%%%%%%Hide
+
+
+
+
+\setcounter{chapter}{0}
+
+\input{BrokenChapter.tex}
+\newpage
+
+
+
+\end{document}

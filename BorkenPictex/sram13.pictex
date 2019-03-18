@@ -1,0 +1,406 @@
+\font\thinlinefont=cmr5
+%
+\begingroup\makeatletter\ifx\SetFigFont\undefined%
+\gdef\SetFigFont#1#2#3#4#5{%
+  \reset@font\fontsize{#1}{#2pt}%
+  \fontfamily{#3}\fontseries{#4}\fontshape{#5}%
+  \selectfont}%
+\fi\endgroup%
+\mbox{\beginpicture
+\setcoordinatesystem units <1.00000cm,1.00000cm>
+\unitlength=1.00000cm
+\linethickness=1pt
+\setplotsymbol ({\makebox(0,0)[l]{\tencirc\symbol{'160}}})
+\setshadesymbol ({\thinlinefont .})
+\setlinear
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\ellipticalarc axes ratio  0.085:0.085  360 degrees 
+	from  0.286 22.246 center at  0.201 22.246
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\put{\makebox(0,0)[l]{\circle*{ 0.161}}} at  1.873 24.744
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\put{\makebox(0,0)[l]{\circle*{ 0.161}}} at  6.016 24.765
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\put{\makebox(0,0)[l]{\circle*{ 0.161}}} at  4.106 24.786
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\ellipticalarc axes ratio  0.085:0.085  360 degrees 
+	from  5.694 22.257 center at  5.609 22.257
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\ellipticalarc axes ratio  0.085:0.085  360 degrees 
+	from  6.541 22.257 center at  6.456 22.257
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\ellipticalarc axes ratio  0.085:0.085  360 degrees 
+	from  8.964 22.278 center at  8.879 22.278
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\ellipticalarc axes ratio  0.085:0.085  360 degrees 
+	from  9.853 22.299 center at  9.768 22.299
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\ellipticalarc axes ratio  0.085:0.085  360 degrees 
+	from  4.678 22.267 center at  4.593 22.267
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\ellipticalarc axes ratio  0.085:0.085  360 degrees 
+	from  3.715 22.236 center at  3.630 22.236
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\put{\makebox(0,0)[l]{\circle*{ 0.161}}} at  8.001 24.754
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\ellipticalarc axes ratio  0.085:0.085  360 degrees 
+	from  2.836 22.246 center at  2.752 22.246
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\ellipticalarc axes ratio  0.085:0.085  360 degrees 
+	from  2.000 22.236 center at  1.916 22.236
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\ellipticalarc axes ratio  0.085:0.085  360 degrees 
+	from  1.128 22.246 center at  1.044 22.246
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\ellipticalarc axes ratio  0.085:0.085  360 degrees 
+	from  8.208 22.278 center at  8.124 22.278
+%
+% Fig ELLIPSE
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+\ellipticalarc axes ratio  0.085:0.085  360 degrees 
+	from  7.355 22.257 center at  7.271 22.257
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  0.265 22.310  4.032 24.807 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  1.058 22.331  1.820 24.691 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  1.132 22.278  4.032 24.754 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  1.916 24.744  3.545 22.267 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  1.926 24.765  4.498 22.278 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  4.106 24.723  5.514 22.278 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  4.180 24.786  8.043 22.310 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  2.773 22.331  5.969 24.754 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  6.413 22.341  6.011 24.754 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  6.043 24.723  8.784 22.310 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  3.725 22.289  7.969 24.786 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  4.688 22.299  7.990 24.733 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  7.271 22.363  7.990 24.723 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  8.033 24.776  8.848 22.363 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  6.064 24.754  9.673 22.310 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  8.075 24.765  9.747 22.394 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  1.852 24.680  1.884 22.320 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  1.905 24.659  2.699 22.331 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  4.128 24.744  6.361 22.278 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  4.138 24.765  7.207 22.278 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  8.001 24.712  8.139 22.373 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  2.000 22.299  5.948 24.786 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  0.201 22.331  1.789 24.744 /
+}%
+%
+% Fig POLYLINE object
+%
+\linethickness= 0.500pt
+\setplotsymbol ({\thinlinefont .})
+{\color[rgb]{0,0,0}\plot  5.990 24.701  5.652 22.363 /
+}%
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}12} [lB] at  0.085 21.569
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}12} [lB] at  0.931 21.579
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}$w_1$} [lB] at  0.095 21.876
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}$w_2$} [lB] at  0.942 21.886
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}$w_3$} [lB] at  1.789 21.876
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}13} [lB] at  1.778 21.601
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}13} [lB] at  2.635 21.579
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}$w_4$} [lB] at  2.635 21.907
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}$w_5$} [lB] at  3.524 21.907
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}$w_6$} [lB] at  4.434 21.907
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}$w_7$} [lB] at  5.440 21.886
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}$w_8$} [lB] at  6.318 21.897
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}$w_9$} [lB] at  7.165 21.929
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}$w_{10}$} [lB] at  7.980 21.929
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}$w_{11}$} [lB] at  8.731 21.950
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}$w_{12}$} [lB] at  9.578 21.950
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}14} [lB] at  3.503 21.601
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}14} [lB] at  4.424 21.590
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}23} [lB] at  5.514 21.611
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}23} [lB] at  6.382 21.622
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}24} [lB] at  7.186 21.590
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}24} [lB] at  8.012 21.611
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}34} [lB] at  8.795 21.601
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}34} [lB] at  9.663 21.622
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}$u_1$} [lB] at  1.778 24.945
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}$u_2$} [lB] at  3.948 24.966
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}$u_3$} [lB] at  5.863 24.955
+%
+% Fig TEXT object
+%
+\put{\SetFigFont{8}{9.6}{\rmdefault}{\mddefault}{\updefault}$u_4$} [lB] at  7.832 24.934
+\linethickness=0pt
+\putrectangle corners at  0.085 25.195 and  9.870 21.569
+\endpicture}
